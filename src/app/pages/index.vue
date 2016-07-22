@@ -42,7 +42,6 @@
             },
             data: function(transition){
                 Tracker.autorun(function () {
-                    console.log('fuck')
                     this.tasks = Tasks.find().fetch()
                 }.bind(this))
             },
